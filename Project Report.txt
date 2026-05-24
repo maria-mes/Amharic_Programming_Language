@@ -1,0 +1,23 @@
+PROJECT REPORT: ETHIO-COMPILER (YL-TRANSLATOR)
+| Type: Amharic-to-Python source-to-source compilation
+1. Design Decisions
+This programming language was designed as a source-to-source compiler that translates a custom Amharic-based language into Python. The main design decision was to use simple and structured syntax that is easy to parse and understand.
+The language uses:
+•	Amharic keywords instead of English programming terms 
+•	Braces {} instead of indentation for block structure 
+•	A minimal set of features (variables, conditions, loops, functions) to keep the language simple and focused 
+Python was selected as the target language because it supports Unicode and provides clean and readable syntax for generated code.
+2. Why This Language Helps Beginners
+This language is designed to reduce the learning barrier for new programmers, especially those who are not fluent in English. By using Amharic keywords such as ከሆነ (if), እስከ (while), and አትም (print), learners can focus on programming logic instead of struggling with foreign terminology.
+Additionally, the language removes unnecessary complexity by:
+•	Using simple syntax rules 
+•	Avoiding advanced programming concepts 
+•	Providing clear and predictable structure 
+This makes it easier for beginners to understand core programming ideas such as variables, conditions, loops, and functions.
+3. Challenges Faced
+One of the main challenges in this project was handling Unicode-based programming syntax, especially using Amharic characters in a compiler system. Ensuring that the lexer and parser correctly recognize and process these characters required careful configuration.
+Another challenge was designing grammar that avoids ambiguity while still remaining simple for beginners. Choosing between Python-style indentation and brace-based structure was also an important decision; braces were selected to simplify parsing and reduce errors.
+Finally, generating correct and properly formatted Python code from the abstract syntax tree required handling indentation and nested structures carefully in the code generator.
+Conclusion
+Despite these challenges, the project successfully implements a working compiler pipeline that translates a custom Amharic-based programming language into executable Python code, demonstrating how programming languages can be localized for educational purposes.
+
