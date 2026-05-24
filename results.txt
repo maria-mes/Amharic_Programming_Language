@@ -1,0 +1,27 @@
+==================================================
+Amharic_Compiler (YL) EXECUTION RESULTS
+==================================================
+
+TEST :  (test1.yl)
+---------------------------------
+Command: python test1.py
+Output:
+10                        
+x is greater
+
+TEST 2:  (test2.yl)
+---------------------------------
+Command: python test2.py
+Output:
+out put 
+1
+2
+ሶስት
+4
+5
+
+TEST 3:  (test3.yl)
+---------------------------------
+Command: python test3.py
+Output:
+20
